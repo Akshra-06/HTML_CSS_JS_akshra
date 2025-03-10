@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
     <form action="submit.php" method="POST">
@@ -14,11 +14,11 @@
         <select name="list" id="list" multiple>
             <option selected>First</option>
             <option>Second</option>
+            <option>Third</option></option>
+            <option>Fourth</option>
+            <option>Fifth</option>
         </select>
         <br>
-        
-        
-        
         <label for="txtar">Text Area:</label>
         <textarea name="txtarea" id="txtar" placeholder="Write here" rows="5" cols="20"></textarea>
         <br>Gender: 
@@ -36,10 +36,10 @@
         <input type="time" name="time">
         <br>
         Choose the subjects:
-<input type="checkbox" name="subjects[]" value="english">English
-<input type="checkbox" name="subjects[]" value="hindi">Hindi
-<input type="checkbox" name="subjects[]" value="maths">Maths
-<br>
+        <input type="checkbox" name="subjects[]" value="english">English
+        <input type="checkbox" name="subjects[]" value="hindi">Hindi
+        <input type="checkbox" name="subjects[]" value="maths">Maths
+        <br>
 
         <input type="submit" name="sub" value="Submit" id="sub">
         <input type="reset" name="reset" value="Cļear">
